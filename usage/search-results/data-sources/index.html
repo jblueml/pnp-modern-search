@@ -1025,7 +1025,7 @@
 <p>Be careful, when you switch the data source in the property pane, all the previous data source properties are lost. We do this to avoid polluting the web part property bag with multiple useless configurations.</p>
 </blockquote>
 <h3 id="sharepoint-search">SharePoint Search<a class="headerlink" href="#sharepoint-search" title="Permanent link">&para;</a></h3>
-<p>The <em>'SharePoint Search'</em> data source retrieve items from the SharePoint search engine.</p>
+<p>The <em>'SharePoint Search'</em> data source retrieves items from the SharePoint search engine.</p>
 <blockquote>
 <p>The SharePoint search is different from the Microsoft Graph search.</p>
 </blockquote>
@@ -1085,6 +1085,11 @@
 <td>False.</td>
 </tr>
 <tr>
+<td><strong>"Cache timeout</strong></td>
+<td>Number of minutes before the cache expires. Set it to 0 to disable caching.</td>
+<td>0.</td>
+</tr>
+<tr>
 <td><strong>Enable audience targeting</strong></td>
 <td>Whether or not results should be targeted according to the audiences that the current user belongs to. <a href="https://support.microsoft.com/office/target-navigation-news-and-files-to-specific-audiences-33d84cb6-14ed-4e53-a426-74c38ea32293">More information about modern audiences and how to configure them</a>.</td>
 <td>False.</td>
@@ -1107,9 +1112,9 @@
 </tbody>
 </table>
 <h3 id="microsoft-search">Microsoft Search<a class="headerlink" href="#microsoft-search" title="Permanent link">&para;</a></h3>
-<p>The <em>'Microsoft Search'</em> data source retrieve items from the Microsoft search engine.</p>
+<p>The <em>'Microsoft Search'</em> data source retrieves items from the Microsoft search engine.</p>
 <blockquote>
-<p>This data source can use the Microsoft Search beta API that is not suitable for a production use. Use the normal version for production use.</p>
+<p>This data source can use the Microsoft Search beta API that is not suitable for production use. Use the normal version for production use.</p>
 </blockquote>
 <h4 id="source-configuration_1">Source configuration<a class="headerlink" href="#source-configuration_1" title="Permanent link">&para;</a></h4>
 <table>
